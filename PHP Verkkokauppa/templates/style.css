@@ -1,0 +1,76 @@
+.header {
+    background-color: red;
+    background-image: linear-gradient(to right, red , rgb(68, 63, 63) );
+}
+
+.nav {
+    background-color: rgb(87, 58, 38);
+}
+
+h1 {
+    color: bisque;
+}
+
+.nav {
+    font-style: oblique;
+    font-size: 22px;
+}
+
+.frontPage {
+    height: 850px;
+}
+
+.computer {
+    width: 500px;
+    height: auto;
+}
+
+.korput {
+    width: 500px;
+    height: auto;
+}
+
+.products {
+    width: auto;
+      
+}
+
+.cart {
+    height: 800px;
+}
+
+.button {
+    background-color: rgb(201, 142, 124);   
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.6s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.happyPC {
+    height: 460px;
+}
+
+.cartoonPC {
+    height: 360px;
+    width: auto;
+}
